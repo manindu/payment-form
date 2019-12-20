@@ -1,0 +1,31 @@
+@import 'app/styling/main.scss';
+
+.card-input-container {
+  font-size: 1.4rem;
+  color: $font-color;
+  margin-bottom: 2rem;
+  .input {
+    height: 4rem;
+    width: 100%;
+    border-radius: 5px;
+    border-style: solid;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 1.4rem;
+    border-color: $control-border-color;
+    color: $font-color;
+  }
+
+  ::placeholder {
+    color: $control-border-color;
+  }
+
+  .input:focus {
+    border: 2px solid;
+    border-color: $primary-color;
+  }
+
+  .input-label {
+    margin-bottom: 1rem;
+  }
+}
