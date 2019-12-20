@@ -2,6 +2,7 @@
 
 .button-container {
   width: 100%;
+  background-color: transparent;
 
   .button {
     background-color: $primary-color;
@@ -12,5 +13,6 @@
     font-weight: bold;
     color: $white;
     outline: none;
+    cursor: pointer;
   }
 }

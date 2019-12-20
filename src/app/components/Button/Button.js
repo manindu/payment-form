@@ -3,7 +3,7 @@ import Ripples from 'react-ripples';
 import './Button.scss';
 
 const Button = () => (
-  <Ripples className="button-container">
+  <Ripples during={1000} className="button-container">
     <button className="button" type="button">
       Proceed
     </button>
