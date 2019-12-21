@@ -4,6 +4,17 @@
   font-size: 1.4rem;
   color: $font-color;
   margin-bottom: 2rem;
+  position: relative;
+
+  .required {
+    margin-left: 3px;
+    color: $error-color;
+  }
+
+  .label-container {
+    display: flex;
+  }
+
   .input {
     height: 4rem;
     width: 100%;
@@ -14,6 +25,18 @@
     font-size: 1.4rem;
     border-color: $control-border-color;
     color: $font-color;
+
+    &-error {
+      border: 2px solid;
+      border-color: $error-color;
+    }
+  }
+
+  .card-image {
+    position: absolute;
+    width: 3.2rem;
+    right: 1rem;
+    top: 3.5rem;
   }
 
   ::placeholder {

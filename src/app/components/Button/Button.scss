@@ -14,5 +14,9 @@
     color: $white;
     outline: none;
     cursor: pointer;
+
+    &-disabled {
+      background-color: $control-border-color;
+    }
   }
 }

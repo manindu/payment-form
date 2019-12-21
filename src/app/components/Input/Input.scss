@@ -4,6 +4,20 @@
   font-size: 1.4rem;
   color: $font-color;
   margin-bottom: 2rem;
+
+  .required {
+    margin-left: 3px;
+    color: $error-color;
+  }
+
+  .label-container {
+    display: flex;
+  }
+
+  .spacing {
+    margin-top: 2.6rem;
+  }
+
   .input {
     height: 4rem;
     width: 100%;
@@ -14,6 +28,11 @@
     font-size: 1.4rem;
     border-color: $control-border-color;
     color: $font-color;
+
+    &-error {
+      border: 2px solid;
+      border-color: $error-color;
+    }
   }
 
   ::placeholder {
