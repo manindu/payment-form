@@ -1,10 +1,13 @@
 import assets from 'app/assets';
 
+export const AMEX_MASK = '9999-999999-99999';
+export const OTHER_MASK = '9999-9999-9999-9999';
+
 export const getCardInputMask = value => {
   if (/^3[47]/.test(value)) {
-    return '9999-999999-99999';
+    return AMEX_MASK;
   }
-  return '9999-9999-9999-9999';
+  return OTHER_MASK;
 };
 
 export const getCardLogo = id => {

@@ -1,6 +1,6 @@
 import { SUBMIT_PAYMENT } from '../actions/types';
 
-const initialState = {
+export const initialState = {
   name: '',
   month: '',
   year: '',
