@@ -14,6 +14,10 @@
 
    `npm run test`
 
+4. You can build the app by running
+
+   `npm build`
+
 ## Notes
 
 - The project includes linting. This linting setup uses ESLint and Prettier
